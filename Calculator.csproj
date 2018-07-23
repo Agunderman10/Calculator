@@ -61,7 +61,6 @@
     <Compile Include="Commands\NineCommand.cs" />
     <Compile Include="Commands\SevenCommand.cs" />
     <Compile Include="Commands\SixCommand.cs" />
-    <Compile Include="Commands\TenCommand.cs" />
     <Compile Include="Commands\ThreeCommand.cs" />
     <Compile Include="Commands\TwoCommand.cs" />
     <Compile Include="Commands\ZeroCommand.cs" />
