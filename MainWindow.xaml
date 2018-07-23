@@ -57,7 +57,7 @@
         <Button Content="-" FontSize="30" Height="100" Width="100" Grid.Column="3" Grid.Row="3"/>
         <Button Command="{Binding OneCommand}" Content="1" FontSize="30" Height="100" Width="100" Grid.Row="4"/>
         <Button Command="{Binding TwoCommand}" Content="2" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="4"/>
-        <Button Command="{Binding OneCommand}" Content="3" FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="4"/>
+        <Button Command="{Binding ThreeCommand}" Content="3" FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="4"/>
         <Button Content="+" FontSize="30" Height="100" Width="100" Grid.Column="3" Grid.Row="4"/>
         <Button Content="Button 17" Height="100" Width="100" Grid.Row="5"/>
         <Button Command="{Binding ZeroCommand}" Content="0" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="5"/>
