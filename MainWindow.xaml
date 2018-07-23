@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="400"
-        Background="Black">
+        Background="Black"
+        ResizeMode="NoResize">
 
     <Window.DataContext>
         <local:MainWindowViewModel />
@@ -46,21 +47,21 @@
         <Button Content="C" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="1"/>
         <Button Content="x*x" FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="1"/>
         <Button Content="Button 4" Height="100" Width="100" Grid.Column="3" Grid.Row="1"/>
-        <Button Content="7" FontSize="30" Height="100" Width="100" Grid.Row="2"/>
-        <Button Content="8" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="2"/>
-        <Button Content="9" FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="2"/>
+        <Button Command="{Binding SevenCommand}" Content="7" FontSize="30" Height="100" Width="100" Grid.Row="2"/>
+        <Button Command="{Binding EightCommand}" Content="8" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="2"/>
+        <Button Command="{Binding NineCommand}" Content="9" FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="2"/>
         <Button Content="x" FontSize="30" Height="100" Width="100" Grid.Column="3" Grid.Row="2"/>
-        <Button Content="4" FontSize="30" Height="100" Width="100" Grid.Row="3"/>
-        <Button Content="5" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="3"/>
-        <Button Content="6" FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="3"/>
+        <Button Command="{Binding FourCommand}" Content="4" FontSize="30" Height="100" Width="100" Grid.Row="3"/>
+        <Button Command="{Binding FiveCommand}" Content="5" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="3"/>
+        <Button Command="{Binding SixCommand}" Content="6" FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="3"/>
         <Button Content="-" FontSize="30" Height="100" Width="100" Grid.Column="3" Grid.Row="3"/>
-        <Button Content="1" FontSize="30" Height="100" Width="100" Grid.Row="4"/>
-        <Button Content="2" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="4"/>
-        <Button Content="3" FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="4"/>
+        <Button Command="{Binding OneCommand}" Content="1" FontSize="30" Height="100" Width="100" Grid.Row="4"/>
+        <Button Command="{Binding TwoCommand}" Content="2" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="4"/>
+        <Button Command="{Binding OneCommand}" Content="3" FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="4"/>
         <Button Content="+" FontSize="30" Height="100" Width="100" Grid.Column="3" Grid.Row="4"/>
         <Button Content="Button 17" Height="100" Width="100" Grid.Row="5"/>
-        <Button Content="0" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="5"/>
-        <Button Content="." FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="5"/>
+        <Button Command="{Binding ZeroCommand}" Content="0" FontSize="30" Height="100" Width="100" Grid.Column="1" Grid.Row="5"/>
+        <Button Command="{Binding DotCommand}" Content="." FontSize="30" Height="100" Width="100" Grid.Column="2" Grid.Row="5"/>
         <Button Command="{Binding EqualsCommand}" Content="=" FontSize="30" Height="100" Width="100" Grid.Column="3" Grid.Row="5"/>
         
     </Grid>

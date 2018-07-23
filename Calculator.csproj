@@ -54,6 +54,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Commands\DotCommand.cs" />
+    <Compile Include="Commands\EightCommand.cs" />
+    <Compile Include="Commands\FiveCommand.cs" />
+    <Compile Include="Commands\FourCommand.cs" />
+    <Compile Include="Commands\NineCommand.cs" />
+    <Compile Include="Commands\SevenCommand.cs" />
+    <Compile Include="Commands\SixCommand.cs" />
+    <Compile Include="Commands\TenCommand.cs" />
+    <Compile Include="Commands\ThreeCommand.cs" />
+    <Compile Include="Commands\TwoCommand.cs" />
+    <Compile Include="Commands\ZeroCommand.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -62,7 +73,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Calculator.cs" />
     <Compile Include="Commands\EqualsCommand.cs" />
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="MainWindow.xaml.cs">
@@ -71,6 +81,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\OneCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
