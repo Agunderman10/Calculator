@@ -23,7 +23,6 @@ namespace Calculator
             this.SevenCommand = new SevenCommand(this);
             this.EightCommand = new EightCommand(this);
             this.NineCommand = new NineCommand(this);
-            this.TenCommand = new TenCommand(this);
             this.DotCommand = new DotCommand(this);
         }
 
@@ -53,7 +52,6 @@ namespace Calculator
         public ICommand SevenCommand { get; }
         public ICommand EightCommand { get; }
         public ICommand NineCommand { get; }
-        public ICommand TenCommand { get; }
         public ICommand DotCommand { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;
