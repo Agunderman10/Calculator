@@ -11,7 +11,7 @@ namespace Calculator
 
         public MainWindowViewModel()
         {
-            this.EqualsCommand = new EqualsCommand(this);
+            this.ButtonCommands = new ButtonCommands(this);
         }
 
         public string Text
@@ -29,7 +29,7 @@ namespace Calculator
             }
         }
 
-        public ICommand EqualsCommand { get; }
+        public ICommand ButtonCommands { get; }
 
         public event PropertyChangedEventHandler PropertyChanged;
     }

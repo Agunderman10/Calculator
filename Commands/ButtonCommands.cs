@@ -3,11 +3,11 @@
     using System;
     using System.Windows.Input;
 
-    internal sealed class EqualsCommand : ICommand
+    internal sealed class ButtonCommands : ICommand
     {
         private readonly MainWindowViewModel viewModel;
 
-        public EqualsCommand(MainWindowViewModel viewModel)
+        public ButtonCommands(MainWindowViewModel viewModel)
         {
             this.viewModel = viewModel ?? throw new ArgumentNullException(nameof(viewModel));
         }

@@ -63,7 +63,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Calculator.cs" />
-    <Compile Include="Commands\EqualsCommand.cs" />
+    <Compile Include="Commands\ButtonCommands.cs" />
     <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
